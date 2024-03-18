@@ -1,4 +1,3 @@
-import React from 'react';
 import Stack from '@mui/material/Stack';
 import { AppLayout } from '../src/layout/AppLayout';
 import { FullScreenLoader } from '../src/modules/Common/FullScreenLoader';
@@ -29,7 +28,7 @@ export const App = () => {
 
   return (
     <ThemeWrapper>
-      <Stack sx={{ bgcolor: 'background.default', minHeight: innerHeight }}>
+      <Stack sx={{ bgcolor: 'background.default' }}>
         {isFetching && (<FullScreenLoader />)}
         <Routes>
 
