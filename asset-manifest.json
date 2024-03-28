@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/landing-animals/static/css/main.00c7a51e.css",
+    "main.js": "/landing-animals/static/js/main.91a4b37c.js",
+    "static/js/453.06ad6595.chunk.js": "/landing-animals/static/js/453.06ad6595.chunk.js",
+    "static/media/elephant.png": "/landing-animals/static/media/elephant.4179ec43f712b3b60774.png",
+    "static/media/kangaroo.png": "/landing-animals/static/media/kangaroo.97b0b0eee2b0018dc0d1.png",
+    "static/media/bg-1.jpg": "/landing-animals/static/media/bg-1.56b4c3672f6b2b6387ce.jpg",
+    "index.html": "/landing-animals/index.html",
+    "main.00c7a51e.css.map": "/landing-animals/static/css/main.00c7a51e.css.map",
+    "main.91a4b37c.js.map": "/landing-animals/static/js/main.91a4b37c.js.map",
+    "453.06ad6595.chunk.js.map": "/landing-animals/static/js/453.06ad6595.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00c7a51e.css",
+    "static/js/main.91a4b37c.js"
+  ]
+}
