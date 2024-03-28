@@ -1,4 +1,4 @@
-import { Button, Container, Stack, SxProps, Typography } from '@mui/material';
+import { Box, Button, Container, Stack, SxProps, Typography } from '@mui/material';
 import { getThemeMode } from '../../redux/app/appSelector';
 import { toggleThemeMode } from '../../redux/app/appReducer';
 import { useDispatch, useSelector } from 'react-redux';
@@ -7,6 +7,7 @@ import styles from './styles.module.scss';
 import { Header } from './Elements/Header';
 import { Footer } from './Elements/Footer';
 import { Slider } from './Elements/Slider';
+import cn from 'classnames';
 
 type HomePageType = {
 };
@@ -34,6 +35,11 @@ export const HomePage: React.FC<HomePageType> = ({ }) => {
                     <Footer />
                 </Container>
             </Stack>
+            <Box className={cn(styles.forDesktop, styles.mobileElement)} display={{ xs: 'block', md: 'none' }}>
+                <div className={styles.forDesktop__content}>
+                    <Typography variant="h4">Desktop only</Typography>
+                </div>
+            </Box>
         </Stack >
     );
 };
