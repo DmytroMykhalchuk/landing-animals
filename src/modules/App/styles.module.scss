@@ -59,7 +59,7 @@
 
     &.prevSlide {
         scale: 21;
-        transition: all 2s ease-in-out;
+        transition: all 1s ease-in-out;
         z-index: 6;
 
         .slide__circle.content {
@@ -70,14 +70,14 @@
 
     &.currentSlide {
         scale: 1;
-        transition: all 2s ease-in-out;
+        transition: all 1s ease-in-out;
         z-index: 6;
     }
 
     &.nextSlide {
         position: absolute;
         scale: 1.4;
-        transition: all 2s ease-in-out;
+        transition: all 1s ease-in-out;
     }
 
     &__central {
@@ -143,7 +143,7 @@
 }
 
 .slideReview {
-    transition: all 2s ease-in-out;
+    transition: all 1s ease-in-out;
     aspect-ratio: 1;
     background-color: #2e2e2e;
     border-radius: 50%;
@@ -171,7 +171,7 @@
 }
 
 .slidePreview {
-    transition: all 2s ease-in-out;
+    transition: all 1s ease-in-out;
     aspect-ratio: 1;
     background-color: #2e2e2e;
     border-radius: 50%;
@@ -188,7 +188,7 @@
     width: 0%;
     z-index: 18;
     animation-name: fade;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
 .bottomWrapper {
@@ -245,7 +245,7 @@
             width: 100%;
             left: 0;
             right: 0;
-            transition: all 2s ease-in-out;
+            transition: all 1s ease-in-out;
         }
 
         &__row.prev {

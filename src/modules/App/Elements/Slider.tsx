@@ -22,11 +22,11 @@ export const Slider: React.FC<SliderType> = ({ }) => {
             setIsNextAnimation(false)
             setStage((prev: number) => prev + 1);
             setIsRenderPreview(false)
-        }, 2000);
+        }, 1000);
 
         isPrevAnimation && setTimeout(() => {
             setIsPrevAnimation(false)
-        }, 2000);
+        }, 1000);
 
     }, [isNextAnimation, isPrevAnimation]);
 
